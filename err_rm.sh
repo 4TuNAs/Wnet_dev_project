@@ -119,7 +119,7 @@ echo " "
 
 if [[ "$5" = "-vl"  || "$5" = "--vlan" ]] ; then
       echo "Check vlan on diagnostic"
-      echo "Checl clan $6"
+      echo "Checl vlan $6"
       
       else 
         echo "Flag Error "      
