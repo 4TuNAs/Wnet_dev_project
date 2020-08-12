@@ -29,7 +29,7 @@ else
 fi
 
 if [[ "$1" = "-v"  || "$1" = "--version" ]] ; then
-      echo "Version 1.0.0"
+      echo "Version 1.0.1"
       echo "Creator 4TuNA@wnet.com"
       exit 1
       else 
