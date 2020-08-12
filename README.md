@@ -8,6 +8,7 @@ Key:
 
 To Use:
 
+chmode +x err_rm.sh
 err_rm.sh hostname username port
 On Junipper: err_rm.sh 192.168.1.1 admin xe-1/0/25
 On D-Link: err_rm.sh 192.168.1.1 admin 25
