@@ -10,7 +10,7 @@ Key:
 
 To Use:
 
-chmode +x err_rm.sh
+chmod +x err_rm.sh
 
 For Clear ports
 err_rm.sh hostname username port 
