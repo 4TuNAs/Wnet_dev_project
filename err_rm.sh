@@ -164,8 +164,6 @@ then
         echo -ne "q"
         echo -ne '\n'
         sleep 1;
-        echo -ne "clear error port $3"
-
         echo -ne '\n'
         sleep 1;
         echo -ne "show fdb port $3"
@@ -223,9 +221,6 @@ then
         echo -en "$2\r";
         sleep 1;
         echo -en "$PASSWORD\r";
-        sleep 1;
-        echo -ne "show error ports $3"
-        echo -ne '\n'
         sleep 1;
         echo -ne "clear counter ports $3"
         echo -ne '\n'
