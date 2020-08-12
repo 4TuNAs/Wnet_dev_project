@@ -25,7 +25,7 @@ if [[ "$1" = "-h"  ||  "$1" = "--help"  ]] ; then
 
       exit 1
 else
-      echo "Flag Error"
+      echo " "
 fi
 
 if [[ "$1" = "-v"  || "$1" = "--version" ]] ; then
@@ -33,7 +33,7 @@ if [[ "$1" = "-v"  || "$1" = "--version" ]] ; then
       echo "Creator 4TuNA@wnet.com"
       exit 1
       else 
-        echo "Flag Error "	
+        echo " "	
 fi
 
 
